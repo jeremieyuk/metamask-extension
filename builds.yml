@@ -22,6 +22,7 @@ buildTypes:
       - INFURA_PROJECT_ID: ''
       - _nodeLRUCacheForceNoSymbol: ''
       - npm_package_name: ''
+      - npm_lifecycle_script : ''
       - INFURA_ENV_KEY_REF: INFURA_PROD_PROJECT_ID
       - SEGMENT_WRITE_KEY_REF: SEGMENT_PROD_WRITE_KEY
     # Main build uses the default browser manifest
