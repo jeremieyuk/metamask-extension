@@ -19,6 +19,8 @@ buildTypes:
     env:
       - INFURA_PROD_PROJECT_ID
       - SEGMENT_PROD_WRITE_KEY
+      - INFURA_PROJECT_ID: ''
+      - _nodeLRUCacheForceNoSymbol: ''
       - INFURA_ENV_KEY_REF: INFURA_PROD_PROJECT_ID
       - SEGMENT_WRITE_KEY_REF: SEGMENT_PROD_WRITE_KEY
     # Main build uses the default browser manifest
